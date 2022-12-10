@@ -3,8 +3,6 @@ from cscore import CameraServer
 import cv2
 import numpy as np
 
-CameraServer.enableLogging()
-
 camera = CameraServer.startAutomaticCapture()
 camera.setResolution(width, height)
 
